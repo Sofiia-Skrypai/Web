@@ -1,0 +1,398 @@
+
+
+.Game { 
+	background-color:rgba(234.8474469780922, 231.77742451429367, 208.53282541036606, 1);
+	width:1920px;
+	height:4014px;
+	position:absolute;
+}
+.Header { 
+	background-color:rgba(226.0000017285347, 142.00000673532486, 192.00000375509262, 1);
+	width:510px;
+	height:4014px;
+	position:absolute;
+	left:1410px;
+	top:0px;
+}
+.Logo0 { 
+	width:263px;
+	height:64px;
+	position:absolute;
+	left:123px;
+	top:60px;
+	background-image:url(images/logo.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.SearchBar { 
+	background-color:rgba(255, 255, 255, 1);
+	width:331px;
+	height:48px;
+	position:absolute;
+	left:89px;
+	top:159px;
+	border-top-left-radius:50px;
+	border-top-right-radius:50px;
+	border-bottom-left-radius:50px;
+	border-bottom-right-radius:50px;
+}
+.IconSearch { 
+	width:24px;
+	height:24px;
+	position:absolute;
+	left:18px;
+	top:12px;
+	flex-shrink: 0; 
+    stroke-width: 2px;
+    stroke: var(--Blue, #4B85D9);
+}
+.TextSearch { 
+	color:rgba(75.00000312924385, 133.00000727176666, 217.0000022649765, 1);
+	width:70px;
+	height:14px;
+	position:absolute;
+	left:54px;
+	top:10px;
+	font-family:Montserrat Alternates;
+	text-align:left;
+	font-size:20px;
+	letter-spacing:0;
+	transition: color 0.3s ease-in-out;
+}
+.AdditionalInf4:hover {
+    color: var(--Purple, #4B2860);
+}
+.Name { 
+    width: 190px;
+    height: 3044px;
+    position: absolute;
+    left: 160px;
+    top: 850px;
+    color: white; /* Білий колір для тексту */
+}
+
+.Main { 
+	width:1410px;
+	height:4014px;
+	position:absolute;
+	left:0px;
+	top:0px;
+}
+.Footer { 
+	background-color:rgba(75.00000312924385, 40.00000141561031, 96.00000187754631, 1);
+	width:1410px;
+	height:194px;
+	position:absolute;
+	left:0px;
+	top:3820px;
+}
+.Logo { 
+	width:263px;
+	height:64px;
+	position:absolute;
+	left:90px;
+	top:65px;
+	background-image:url(images/logo.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.SocialMediaIcons { 
+	width:344px;
+	height:48px;
+	position:absolute;
+	left:573px;
+	top:73px;
+}
+.IconIg { 
+	width:48px;
+	height:48px;
+	position:absolute;
+	left:0px;
+	top:0px;
+}
+.IconFb { 
+	width:48px;
+	height:48px;
+	position:absolute;
+	left:148px;
+	top:0px;
+}
+.IconX { 
+	width:48px;
+	height:48px;
+	position:absolute;
+	left:296px;
+	top:0px;
+}
+
+.TextCreator { 
+	color:rgba(234.8474469780922, 231.77742451429367, 208.53282541036606, 1);
+	width:152px;
+	height:31px;
+	position:absolute;
+	left:1168px;
+	top:82px;
+	font-family:Montserrat Alternates;
+	text-align:right;
+	font-size:16px;
+	letter-spacing:0;
+}
+.HeroImage { 
+	background-image:url(images/hero_image.png);
+	width:1409px;
+	height:728px;
+	position:absolute;
+	left:0px;
+	top:0px;
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position: center -600px;
+}
+.gradient {
+	background-image:linear-gradient(0deg, rgba(0, 0, 0, 0.10000000149011612) 37.00000047683716%,rgba(211, 211, 211, 1) 90.49999713897705%);
+	width:1409px;
+	height:728px;
+	position:absolute;
+	left:0px;
+	top:0px;
+}
+.Frame5 { 
+    width: 1229px;
+    height: 198px;
+    position: absolute;
+    left: 90px;
+    top: 1329px;
+    display: flex;
+    gap: 20px;
+}
+
+.Frame2, .Frame3, .Frame4 {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 30px;
+    justify-content: center; /* Вирівнювання по вертикалі в центрі */
+    gap: 8px;
+    border-radius: 40px;
+    border: 1px solid var(--Blue, #4B85D9);
+    text-align: left; /* Додаємо вирівнювання тексту по лівому краю */
+}
+
+.Frame2 { 
+    width: 359px;
+}
+
+.Frame3 { 
+    width: 448px;
+}
+
+.Frame4 { 
+    width: 394px;
+}
+
+.BoldInformInRect { 
+    color: var(--Blue, #4B85D9);
+    font-family: "Montserrat Alternates";
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.Ustwo { 
+    color: var(--Blue, #4B85D9);
+    font-family: "Montserrat Alternates";
+    font-size: 32px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+
+.TextAboutGame1 { 
+	color: var(--Blue, #4B85D9);
+	width:472px;
+	height:224px;
+	position:absolute;
+	left:705px;
+	top:985px;
+    font-family: "Montserrat Alternates";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.MonumentValley { 
+	color: var(--Blue, #4B85D9);
+	width:745px;
+	height:192px;
+	position:absolute;
+	left:232px;
+	top:841px;
+    font-family: "Montserrat Alternates";
+    font-size: 120px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 90%;
+}
+.TextAboutGame2 { 
+	color: var(--Blue, #4B85D9);
+	width:473px;
+	height:482px;
+	position:absolute;
+	left:262px;
+	top:1647px;
+	font-family: "Montserrat Alternates";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.TextAboutGame3 { 
+	color: var(--Blue, #4B85D9);
+	width:763px;
+	height:468px;
+	position:absolute;
+	left:490px;
+	top:2992px;
+	font-family: "Montserrat Alternates";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.Bold{
+    color: var(--Blue, #4B85D9);
+    font-family: "Montserrat Alternates";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.Arrow{
+	width: 399.309px;
+    height: 190.584px;
+	position:absolute;
+	transform: rotate(4.38deg);
+    flex-shrink: 0;
+    stroke-width: 1px;
+    stroke: var(--Blue, #4B85D9);
+	left:600px;
+	top:1701px;
+	background-image:url(images/arrow.svg);
+	background-repeat:no-repeat;
+	background-size:cover;
+
+
+}
+
+.CharacterImage1 { 
+	width:161px;
+	height:360px;
+	position:absolute;
+	left:987px;
+	top:1701px;
+	background-image:url(images/character_image.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+.Image { 
+	width:1230px;
+	height:623px;
+	position:absolute;
+	left:90px;
+	top:2249px;
+	background-image:url(images/image.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position: center -460px;
+}
+.CharactersImage2 { 
+	transform: scaleX(-1); 
+	width:347px;
+	height:350px;
+	position:absolute;
+	left:110px;
+	top:3100px;
+	background-image:url(images/characters_image.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.AdditionalInf1, .AdditionalInf2, .AdditionalInf3, .AdditionalInf4 { 
+    color: var(--Blue, #4B85D9);
+    text-align: center;
+    font-family: "Montserrat Alternates";
+    font-size: 28px;
+    font-weight: 700;
+    line-height: normal;
+    transition: color 0.3s ease-in-out;
+	text-decoration: none; 
+}
+
+.AdditionalInf1:hover, 
+.AdditionalInf2:hover, 
+.AdditionalInf3:hover, 
+.AdditionalInf4:hover {
+    color: var(--Purple, #4B2860);
+}
+
+
+.AdditionalInf1 { 
+	width:117px;
+	height:20px;
+	position:absolute;
+	left:88px;
+	top:30px;
+}
+.AdditionalInf2 { 
+	width:183px;
+	height:20px;
+	position:absolute;
+	left:767px;
+	top:30px;	
+}
+.AdditionalInf3 { 
+	width:233px;
+	height:20px;
+	position:absolute;
+	left:1089px;
+	top:30px;
+}
+.AdditionalInf4 { 
+	width:284px;
+	height:20px;
+	position:absolute;
+	left:344px;
+	top:30px;
+}
+.Download { 
+    width: 800px;
+    height: 80px;
+    position: absolute;
+    left: 399px;
+    top: 3580px;
+    display: flex;
+    align-items: center; /* Вирівнювання по вертикалі */
+    gap: 20px; /* Відстань між іконкою та текстом */
+}
+
+.DownloadIcon { 
+    width: 80px;
+    height: 80px;
+    padding: 10px;
+    border-radius: 50px;
+    background: var(--Blue, #4B85D9);
+}
+
+.TextDownload { 
+    color: var(--Blue, #4B85D9);
+    font-family: "Montserrat Alternates";
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;	
+	transition: color 0.3s ease-in-out;
+}
+.TextDownload:hover {
+    color: var(--Purple, #4B2860);
+}
