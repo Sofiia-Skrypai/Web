@@ -1,81 +1,111 @@
+<!DOCTYPE html>
 <html lang="uk">
 <head>
-  <meta charset="utf-8">
-  <title>Module 1</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-  <link rel="stylesheet" href="styles.css">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat+Alternates&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monument Valley</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat+Alternates&display=swap" rel="stylesheet">
 </head>
-<body class=Game>
-  <header class=Header>
-    <div class="Logo0"></div>
-    <div class=SearchBar>
-      <img class="IconSearch" src="images\icons\icon_search.svg" alt="IconSearch" >
-      <span class="TextSearch">пошук</span>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="header__content">
+                <div class="logo0"></div>
+                
+                <div class="search-bar">
+                    <img src="images/icons/icon_search.svg" alt="Search" class="icon-search">
+                    <span class="text-search">пошук</span>
+                </div>
+
+                <nav class="navigation">
+                    <a href="#about" class="nav-link">про гру</a>
+                    <a href="#rewards" class="nav-link">винагороди</a>
+                    <a href="#download" class="nav-link">завантажити</a>
+                    <a href="#way" class="nav-link">персонаж і хід гри</a>
+                </nav>
+            </div>
+        </header>
+
+        <main class="main">
+            <section class="hero">
+                <div class="hero-image"></div>
+                <div class="gradient"></div>
+            </section>
+
+            <section id="about" class="about">
+                <h1 class="game-title">Monument Valley</h1>
+                <p class="game-description">
+                    — це головоломка та інді-гра від Ustwo Games. Гравець веде принцесу
+                    Іду через лабіринти оптичних ілюзій і неможливих об'єктів, маніпулюючи
+                    навколишнім світом, щоб досягти різних платформ.
+                </p>
+            </section>
+
+            <section class="info-cards">
+                <div class="card">
+                    <h3 class="card-title">творець</h3>
+                    <p class="card-text">Ustwo</p>
+                </div>
+                <div class="card">
+                    <h3 class="card-title">рік випуску</h3>
+                    <p class="card-text">2014</p>
+                </div>
+                <div class="card">
+                    <h3 class="card-title">дизайнер</h3>
+                    <p class="card-text">Кен вонг</p>
+                </div>
+            </section>
+
+            <section id="way" class="gameplay">
+                <div class="gameplay-content">
+                    <p class="gameplay-text">
+                        У Monument Valley персонаж гравця <span class="bold">Принцеса Іда</span> подорожує
+                        лабіринтами оптичних ілюзій і неможливих об'єктів, які в грі називають
+                        «сакральною геометрією». Гра представлена ​​в ізометричному вигляді, і гравець взаємодіє з
+                        навколишнім середовищем, щоб знайти приховані проходи, поки Іда
+                        просувається до виходу з карти.
+                    </p>
+                    <div class="character-image"></div>
+                    <div class="arrow"></div>
+                </div>
+            </section>
+
+            <section class="gallery">
+                <div class="game-image"></div>
+            </section>
+
+            <section id="rewards" class="rewards">
+                <div class="rewards-content">
+                    <p class="rewards-text">
+                        Гра отримала «загалом схвальні» відгуки, згідно з агрегатором оглядів
+                        відеоігор <span class="bold">Metacritic.</span> Вона одразу піднялася на вершину чарту платних
+                        додатків App Store, де залишалася принаймні місяць на основі гарних
+                        відгуків і широкого розголосу.<br/>Вона була обрана як </span><span class="bold">вибір редактора App Store,</span><span > а пізніше отримали нагороду Apple Design Award 2014 і була визнана найкращою грою Apple для iPad 2014 року. <br/></span><span class="bold">Pocket Gamer дав грі свою золоту нагороду,</span><span> а їхній Гаррі Слейтер написав, що «нічого іншого, як Monument Valley, немає в App Store».</span>
+                    </p>
+                    <div class="characters-image"></div>
+                </div>
+            </section>
+
+            <section id="download" class="download">
+                <a href="#" class="download-button">
+                    <img src="images/icons/icon_download.svg" alt="Download" class="download-icon">
+                    <span class="download-text">завантажити</span>
+                </a>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div class="footer-content">
+                <div class="logo"></div>
+                <div class="social-media">
+                    <a href="#"><img src="images/icons/icon_ig.svg" alt="Instagram"></a>
+                    <a href="#"><img src="images/icons/icon_fb.svg" alt="Facebook"></a>
+                    <a href="#"><img src="images/icons/icon_x.svg" alt="X"></a>
+                </div>
+                <p class="creator">сайт створений Софією Скрипай</p>
+            </div>
+        </footer>
     </div>
-    <div class=Name>
-      <img src="images/name_image.png" /> 
-    </div>
-  </header>
-  <main class=Main>
-    <article class="Additional">
-      <div class="HeroImage"></div>
-      <div class="gradient"></div>
-      <a href="#about" class="AdditionalInf1">про гру</a>
-      <a href="#rewards" class="AdditionalInf2">винагороди</a>
-      <a href="#downioad" class="AdditionalInf3">завантажити</a>
-      <a href="#way" class="AdditionalInf4">персонаж і хід гри</a>
-    </article>
-    <article >
-      <section>
-        <div id="about" class="MonumentValley">Monument Valley</div>
-        <div  class="TextAboutGame1">— це головоломка та інді-гра від Ustwo Games. Гравець веде принцесу Іду через лабіринти оптичних ілюзій і неможливих об’єктів, маніпулюючи навколишнім світом, щоб досягти різних платформ.</div>
-      </section>
-      <section class=Frame5>
-        <div class=Frame2>
-          <span  class="BoldInformInRect">творець</span>
-          <span  class="Ustwo">Ustwo</span>
-        </div>
-        <div class=Frame3>
-          <span  class="BoldInformInRect">рік випуску</span>
-          <span  class="Ustwo">2014</span>
-        </div>
-        <div class=Frame4>
-          <span  class="BoldInformInRect">дизайнер</span>
-          <span  class="Ustwo">Кен вонг</span>
-        </div>
-      </section>
-    </article>
-    <article>
-      <section>
-        <div id="way" class="TextAboutGame2" ><span>У Monument Valley персонаж гравця </span><span class="Bold" >Принцеса Іда</span><span> подорожує лабіринтами оптичних ілюзій і неможливих об’єктів, які в грі називають «сакральною геометрією».<br/>Гра представлена ​​в ізометричному вигляді, і гравець взаємодіє з навколишнім середовищем, щоб знайти приховані проходи, поки Іда просувається до виходу з карти.</span></div>
-        <div class="CharacterImage1"></div>
-        <div class="Arrow"></div>
-      </section>
-      <sectionclass="Image">
-        <div class="Image"></div>
-      </sectionclass=>
-    </article>
-    <article>
-      <section class="TextAboutGame3">
-        <div id="rewards">Гра отримала «загалом схвальні» відгуки, згідно з агрегатором оглядів відеоігор </div><span class="Bold">Metacritic.</span><span> Вона одразу піднялася на вершину чарту платних додатків App Store, де залишався принаймні місяць на основі гарних відгуків і щирокого розголосу. <br/>Вона була обрана як </span><span class="Bold">вибір редактора App Store,</span><span > а пізніше отримали нагороду Apple Design Award 2014 і була визнана найкращою грою Apple для iPad 2014 року. <br/></span><span class="Bold">Pocket Gamer дав грі свою золоту нагороду,</span><span> а їхній Гаррі Слейтер написав, що «нічого іншого, як Monument Valley, немає в App Store».</span>
-      </section>
-      <section  class="CharactersImage2"></section>
-      <section id="downioad" class=Download>
-        <img class="DownloadIcon" src="images/icons/icon_download.svg" alt="IconDownload" >
-        <span  class="TextDownload">завантажити</span>
-      </section> 
-    </article>
-  </main>
-  <footer class=Footer>
-    <div class=Logo></div>
-    <div class=SocialMediaIcons>
-      <img class="IconIg" src="images\icons\icon_ig.svg" alt="IconInstagram" >
-      <img class="IconFb" src="images\icons\icon_fb.svg" alt="IconFacebook" >
-      <img class="IconX" src="images\icons\icon_x.svg" alt="IconX" >
-    </div>
-    <span  class="TextCreator">сайт створений Софією Скрипай</span>
-  </footer>
 </body>
 </html>
